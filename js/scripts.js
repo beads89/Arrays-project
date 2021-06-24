@@ -23,9 +23,7 @@ $(document).ready(function() {
 	$("#calculate").submit(function(event) {
   event.preventDefault();
   let number = $("#numberInput").val();
-  let output = numberTranslate(number);
-    $("#calculate").click(function() {
+  let output = numberTranslate(number); 
     $("#numberOutput").text(output);
   });
-});
 });
