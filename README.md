@@ -14,7 +14,7 @@
 
 ## Description
 
-_This is an application that requires the user to input a number and will return a string ranging from 0 to the entered number. Any number containing 1, 2, or 3 will be respectfully replaced by "Beep!", "Boop!" and "Won't you be my neighbor?". Only whole numbers will be displayed._
+_This is an application that requires the user to input a number and will return a string ranging from 0 to the entered number. Any digit containing 1, 2, or 3 will be respectfully replaced by "Beep!", "Boop!" and "Won't you be my neighbor?". If a digit contains two or more of those numbers, the phrase displayed will follow the order of 3 > 2 > 1. For example, if a user inputs 321, that number will instead read as "Won't you be my neighbor?". Only whole numbers will be translated._
 
 ## Setup/Installation Requirements
 
@@ -25,8 +25,7 @@ _This is an application that requires the user to input a number and will return
 
 ## Known Bugs
 
-* _TBD_
-* _should go here_
+* _None as of current. Please contact if any are found._
 
 ## License
 

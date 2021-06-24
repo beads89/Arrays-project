@@ -1,5 +1,5 @@
-
 // Business
+
 function numberTranslate(number) {
   let numberDisplay = [];
   for (let i = 0; i <= number; i++) {
@@ -15,13 +15,17 @@ function numberTranslate(number) {
   };
   return numberDisplay; 
 };
-  
-// User
-//Create form id of calculate to trigger submit function.
-//Add an input area (numberInput?)
-//Add a numberOutput to display business function numberTranslate(number)
+
+
+//User
+
 $(document).ready(function() {
-  $("#calculate").submit(function(event) {
-    e.preventDefault();
-  }
-}
+	$("#calculate").submit(function(event) {
+  event.preventDefault();
+  let number = $("#numberInput").val();
+  let output = numberTranslate(number);
+    $("#calculate").click(function() {
+    $("#numberOutput").text(output);
+  });
+});
+});
