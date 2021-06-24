@@ -67,5 +67,9 @@ _Test: "It should display each number, but replace 3 with "Won't you be my neigh
 _Code: numberTranslate(3);_
 _Expected Output: [0, 1, 2, Won't you be my neighbor?]_
 
+_Test: "It should display each number, but replace 3 with "Won't you be my neighbor?" and 2 with "Boop!"._
+_Code: numberTranslate(2);_
+_Expected Output: [0, 1, Boop!, Won't you be my neighbor?]_
+
 
 
