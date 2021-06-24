@@ -16,7 +16,12 @@ function numberTranslate(number) {
   return numberDisplay; 
 };
   
-
 // User
-
-
+//Create form id of calculate to trigger submit function.
+//Add an input area (numberInput?)
+//Add a numberOutput to display business function numberTranslate(number)
+$(document).ready(function() {
+  $("#calculate").submit(function(event) {
+    e.preventDefault();
+  }
+}
