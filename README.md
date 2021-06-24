@@ -75,5 +75,9 @@ _Test: "It should replace 3 with "Won't you be my neighbor?", 2 with "Boop!" and
 _Code: numberTranslate(3);_
 _Expected Output: [0, Beep!, Boop!, Won't you be my neighbor?]_
 
+_Test: "It should individually display 0 to 35 and replace digits containing 3 with "Won't you be my neighbor?", 2 with "Boop!" and 1 with "Beep!". If a digit contains two or more of those numbers, it will only display the phrases in the hierarchy of 3, 2, 1. Ex: 32 should display "Won't you be my neighbor?"._
+_Code: numberTranslate(35);_
+_Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?"]_
+
 
 
