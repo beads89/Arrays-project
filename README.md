@@ -63,5 +63,9 @@ _Test: "It should display an individual range of numbers starting from 0 and goi
 _Code: numberTranslate(10);_
 _Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]_
 
+_Test: "It should display each number, but replace 3 with "Won't you be my neighbor?"_
+_Code: numberTranslate(3);_
+_Expected Output: [0, 1, 2, Won't you be my neighbor?]_
+
 
 
