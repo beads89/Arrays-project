@@ -1,6 +1,12 @@
-const array = [0, 1, 2, 3, 4]
 
-const beep = array.indexOf(1)
+// Business
+function numberTranslate(number) {
+  let numberDisplay = [];
+  for (let i = 0; i <= number; i++) {
+      numberDisplay.push(i);
+    }
+  return numberDisplay;  
+  };
+  
 
-array[beep] = "Beep!"
-
+// User
