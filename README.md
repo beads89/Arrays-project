@@ -30,7 +30,7 @@ _This is an application that requires the user to input a number and will return
 
 ## License
 
-_MIT License
+MIT License
 
 Copyright (c) 2021 Brandon Eads
 
@@ -50,7 +50,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE._
+SOFTWARE.
 
 ## Contact Information
 
@@ -59,5 +59,9 @@ _Brandon Eads - brandon181989@hotmail.com_
 # Tests
 
 * Describe: _numberTranslate()_
+_Test: "It should display an individual range of numbers starting from 0 and going to 10"_
+_Code: numberTranslate(10);_
+_Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]_
+
 
 
