@@ -7,6 +7,8 @@ function numberTranslate(number) {
       numberDisplay.push("Won't you be my neighbor?");
     } else if (i.toString().includes(2)) {
         numberDisplay.push("Boop!");
+    } else if (i.toString().includes(1)) {
+        numberDisplay.push("Beep!");
     } else {
       numberDisplay.push(i);
     } 

@@ -68,8 +68,12 @@ _Code: numberTranslate(3);_
 _Expected Output: [0, 1, 2, Won't you be my neighbor?]_
 
 _Test: "It should display each number, but replace 3 with "Won't you be my neighbor?" and 2 with "Boop!"._
-_Code: numberTranslate(2);_
+_Code: numberTranslate(3);_
 _Expected Output: [0, 1, Boop!, Won't you be my neighbor?]_
+
+_Test: "It should replace 3 with "Won't you be my neighbor?", 2 with "Boop!" and 1 with "Beep!"._
+_Code: numberTranslate(3);_
+_Expected Output: [0, Beep!, Boop!, Won't you be my neighbor?]_
 
 
 
